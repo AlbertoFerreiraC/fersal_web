@@ -1,0 +1,60 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #f8fafc;
+    color: #334155;
+}
+
+#sidebar {
+    width: 250px;
+    min-width: 250px;
+    transition: all 0.3s;
+    min-height: 100vh;
+}
+
+#sidebar.collapsed {
+    margin-left: -250px;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(135deg, #1e3a8a, #0284c7);
+}
+
+.sidebar .nav-link {
+    color: #64748b;
+    font-weight: 500;
+    padding: 0.65rem 1rem;
+}
+
+.sidebar .nav-link:hover {
+    color: #1e3a8a;
+    background-color: #f1f5f9;
+}
+
+.sidebar .nav-link.active {
+    color: #fff;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.user-avatar {
+    width: 34px;
+    height: 34px;
+}
+
+.card-kpi {
+    border-radius: 12px;
+}
+
+.kpi-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
